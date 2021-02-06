@@ -1,6 +1,6 @@
 <h1 align="center">Text Editor Using Python</h1>
 
-<p align="center">This program is a simple Text Editor. It uses  Tkinter packages to have a small GUI (Graphical User Interface) to write, edit, and save files (.txt). However you can save as .py or other type of files but, you can not edit them in the text editor. (I will be working on this one in the future). For now let's just have the .txt files :) 
+<p align="center">This program is a simple Text Editor. It uses  Tkinter packages to have a small GUI (Graphical User Interface) to write, edit, and save files (.txt). However you can save as .py or other type of files but, you can not edit them in the text editor as pyhton files or other type of files. Once you save the file you will see in your IDE that it is actually a python but this text editor will condider it as a txt one. (I will be working on this one in the future). For now let's just have the .txt files :) 
 I also used a stack data structure for the undo and redo purposes. 
 </p>
 

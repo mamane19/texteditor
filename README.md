@@ -1,6 +1,6 @@
 <h1 align="center">Text Editor Using Python</h1>
 
-<p align="center">This program is a simple Text Editor. It uses  Tkinter packages to have a small GUI (Graphical User Interface) to write, edit, and save files (.txt). However you can save as .py or other type of files but, you can not edit them in the text editor as pyhton files or other type of files. Once you save the file you will see in your IDE that it is actually a python but this text editor will condider it as a txt one. (I will be working on this one in the future). For now let's just have the .txt files :) 
+<p align="center">This program is a simple Text Editor. It uses  Tkinter packages to have a small GUI (Graphical User Interface) to write, edit, and save files (.txt). However you can save as .py or other type of files but, you can not edit them in the text editor as pyhton files or other type of files. Once you save the file you will see in your IDE that it is actually a python but by default it is a .txt file. (I will be working on this feature in the future). For now let's just have .txt files :) 
 I also used a stack data structure for the undo and redo purposes. 
 </p>
 
@@ -15,7 +15,9 @@ The program is structured using the [module architecture](https://www.tutorialsp
 ### Third party libraries:
 - [tkinter](https://pypi.org/project/tkintertable/)
 
-
+```
+$pip install tkintertable
+```
 </br>
 ---
 
@@ -23,12 +25,12 @@ I recommend you to use a virtual environment to install those packages for you t
 
 
 
-To execute the program, run the entry-point file using the command:
+To execute the program, run the entry-point file using the command inside the project directory:
 
 ```
-python textEditor.py
+$python textEditor.py
 ```
 If you have multiple versions of python in your system, use the command bellow:
 ```
-python3 textEditor.py
+$python3 textEditor.py
 ```

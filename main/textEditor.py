@@ -12,7 +12,7 @@ def newFile():
     '''
     global filename
     filename = None
-    editor.title("untitled.txt")
+    editor.title("untitled-Akatsuki.txt")
     text.delete(0.0, END)
     
 def saveFile():
@@ -72,7 +72,7 @@ def openFile():
     
 #setting up text editing window with Tkinter
 editor = Tk()
-editor.title("untitled.txt")
+editor.title("untitled-Akatsuki.txt")
 editor.minsize(width = 500, height = 380)
 editor.maxsize(width = 500, height = 380)
 
